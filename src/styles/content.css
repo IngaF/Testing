@@ -1,0 +1,58 @@
+/*Grid-Layout-Element*/
+.content {
+    padding: 1em;
+    grid-column: 3;
+    grid-row: 3;
+    background-color: white;
+}
+
+.contentWrap {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+}
+.contentText {
+    margin-top: -1%;
+    font-size: 79%;
+}
+.textWrap {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 5%;
+}
+.textNumber {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.number {
+    font-size: 600%;
+    font-weight: bolder;
+  color: #203040;
+}
+.numberText {
+    font-size: 79%;
+    width: 50%;
+    margin-top: -10%;
+
+}
+.content2{
+    padding: 1em;
+    grid-row: 4;
+    grid-column: 1/ span 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.headlineDiagramm {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-right: 20%;
+    align-items: center;
+}
+
+
+

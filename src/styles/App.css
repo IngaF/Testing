@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+/*Layout*/
+.wrapMain {
+  display: grid;
+   grid-template-columns: 1fr 20fr;
+   grid-template-rows: 100%;
+   grid-gap: 0px;
+   
+}
+.Wrap1{
+ display: grid;
+ grid-template-columns: 0.3fr 6fr 20fr;
+ grid-template-rows: 0.1fr 0.90fr 0.5fr 8fr;
+ grid-gap: 0px;
+ 
+}
+.placeholder1{
+  padding: 1em;
+  grid-column: 1/ span 2;
+  grid-row: 1;
+  background-color: #2770bc;
+}
+
+.placeholder2{
+  padding: 1em;
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #2770bc;
+}
+.placeholder3{
+  padding: 1em;
+  grid-column: 1;
+  grid-row: 3;
+  background-color: white;
+}
+
+/*NavBar*/
+.navbar {
+ padding: 1em;
+  grid-row: 1/ span 4;
+  grid-column: 1;
+  background-color: #203040;
+}
+
+.logo {
+  width: 70%;
+}
+
+.toolbar {
+  padding-top: 40%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 60%;
+  text-align: center;
+  
+}
+
+#icon {
+  font-size: 220%;
+}
+
+.link:hover {
+  color: #d043ee;
+}
+

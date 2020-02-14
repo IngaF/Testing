@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  line-height: 140%;
+  font-family: -apple-system, Roboto, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+b {
+  color: #2770bc;
+  font-size: 120%;
+}
+h1 {
+  color: #203040;
+  font-size: 150%;
+}
+
+h2 {
+  color: white;
+  line-height: 140%;
+  font-size: 180%;
+}
+
+h3 {
+  color: white;
+  font-size:100%;
+}
+
+h4 {
+  color: #d043ee;
+  font-size: 100%;
+}
+
+h5 {
+  color: #203040;
+  font-size:130%;
+}
+
